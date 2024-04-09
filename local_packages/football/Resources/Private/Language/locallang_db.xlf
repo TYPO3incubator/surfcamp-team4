@@ -6,6 +6,41 @@
             <authorEmail>surfcamp@team4.de</authorEmail>
         </header>
         <body>
+            <!--- BEGIN: pages -->
+            <trans-unit id="pages.data_privacy">
+                <source>Data privacy link</source>
+            </trans-unit>
+            <trans-unit id="pages.copyright">
+                <source>Copyright</source>
+            </trans-unit>
+            <trans-unit id="pages.social">
+                <source>Social Media Links</source>
+            </trans-unit>
+            <trans-unit id="pages.tab.footer">
+                <source>Footer</source>
+            </trans-unit>
+            <trans-unit id="pages.palettes.footer">
+                <source>Footer</source>
+            </trans-unit>
+            <!--- END: pages -->
+
+            <!--- BEGIN: tx_football_domain_model_link -->
+            <trans-unit id="tx_football_domain_model_link">
+                <source>Link</source>
+            </trans-unit>
+            <trans-unit id="tx_football_domain_model_link.url">
+                <source>URL</source>
+            </trans-unit>
+            <trans-unit id="tx_football_domain_model_link.title">
+                <source>Title</source>
+            </trans-unit>
+            <trans-unit id="tx_football_domain_model_link.icon">
+                <source>Icon</source>
+            </trans-unit>
+            <trans-unit id="tx_football_domain_model_link.icon.select">
+                <source>Select</source>
+            </trans-unit>
+            <!--- END: tx_football_domain_model_link -->
         </body>
     </file>
 </xliff>
