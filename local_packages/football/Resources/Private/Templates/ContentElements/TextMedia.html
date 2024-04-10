@@ -1,0 +1,25 @@
+<html data-namespace-typo3-fluid="true"
+      xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+
+<f:render partial="Header/All" arguments="{_all}" />
+
+<f:if condition="{data.bodytext}">
+    <div>
+        <f:format.html>{data.bodytext}</f:format.html>
+    </div>
+</f:if>
+
+<f:if condition="{files}">
+    <f:media file="{files.0}"></f:media>
+    <div>
+        Image meta:
+        <ul>
+            <li>alt-text: {files.0.alternative}</li>
+            <li>title: {files.0.title}</li>
+            <li>description: {files.0.description}</li>
+            <li>position: {data.imageorient}</li>
+        </ul>
+    </div>
+</f:if>
+
+</html>
