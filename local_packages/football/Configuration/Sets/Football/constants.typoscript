@@ -1,3 +1,5 @@
+@import 'EXT:news/Configuration/TypoScript/constants.typoscript'
+
 ############
 ### PAGE ###
 ############
