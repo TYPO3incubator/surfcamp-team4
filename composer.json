@@ -35,6 +35,7 @@
     "prefer-stable": true,
     "require": {
         "php": "^8.2",
+        "georgringer/news": "dev-12-13",
         "surfcamp-team4/football": "@dev",
         "typo3/cms-backend": "dev-main",
         "typo3/cms-belog": "dev-main",
